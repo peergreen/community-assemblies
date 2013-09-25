@@ -33,23 +33,23 @@
     <dependency>
       <groupId>com.peergreen.deployment</groupId>
       <artifactId>deployment-api</artifactId>
-      <version>1.0.1</version>
+      <version>1.0.2</version>
     </dependency>
 
   </dependencies>
-  
+
     <build>
     <plugins>
       <plugin>
         <groupId>com.peergreen.community</groupId>
         <artifactId>community-release-plugin</artifactId>
         <configuration>
-          <communityVersion>${community.version}</communityVersion>
+          <communityVersion>${community-kernel.version}</communityVersion>
           <communityArtifactId>peergreen-kernel-api</communityArtifactId>
         </configuration>
       </plugin>
     </plugins>
   </build>
-  
+
 
 </project>

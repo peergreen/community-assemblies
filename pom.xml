@@ -31,7 +31,8 @@
 
 
   <properties>
-    <community.version>1.0.0-M2</community.version>
+    <community-kernel.version>1.0.0-RC1</community-kernel.version>
+    <community.version>1.0.0-M3</community.version>
   </properties>
 
   <scm>

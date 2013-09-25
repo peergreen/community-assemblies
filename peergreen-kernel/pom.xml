@@ -31,24 +31,24 @@
 
   <dependencies>
     <dependency>
-      <groupId>com.peergreen.server</groupId>
+      <groupId>com.peergreen.assemblies</groupId>
       <artifactId>peergreen-kernel</artifactId>
-      <version>1.0.0-M2</version>
+      <version>1.0.0-RC1</version>
     </dependency>
 
   </dependencies>
-  
+
     <build>
     <plugins>
       <plugin>
         <groupId>com.peergreen.community</groupId>
         <artifactId>community-release-plugin</artifactId>
         <configuration>
-          <communityVersion>${community.version}</communityVersion>
+          <communityVersion>${community-kernel.version}</communityVersion>
         </configuration>
       </plugin>
     </plugins>
   </build>
-  
+
 
 </project>
